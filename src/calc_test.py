@@ -1,5 +1,5 @@
 import unittest
-from calc import add, sub, mult
+from calc import add, sub
 
 class TestStringMethods(unittest.TestCase):
 
@@ -10,10 +10,6 @@ class TestStringMethods(unittest.TestCase):
     def test_sub_2arg(self):
         # Make sure 4 - 3 = 1
         self.assertEqual(sub(4, 3), 1, 'subtracting three from four')
-
-    def test_mult_2arg(self):
-        # Make sure 4 * 3 = 12
-        self.assertEqual(mult(4, 3), 12, 'multiplying three and four')
 
 if __name__ == '__main__':
     unittest.main()

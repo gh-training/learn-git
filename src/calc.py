@@ -18,14 +18,3 @@ def sub(a, b):
     ```
     """
     return a - b
-
-
-def mult(a, b):
-    """
-    Multiply some numbers
-
-    ```py
-    mult(8, 3) # 24
-    ```
-    """
-    return a * b
