@@ -1,5 +1,5 @@
 import unittest
-from calc import add, sub, mult
+from calc import add, sub
 
 class TestStringMethods(unittest.TestCase):
 
