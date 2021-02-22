@@ -12,7 +12,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(sub(4, 3), 1, 'subtracting three from four')
 
     def test_sub_3arg(self):
-        self.assertEquat(sub(4, 3, 1), 0, 'subtracting w/ 3 args')
+        self.assertEquat(sub(4, 3, 1), 0, 'subtracting w/ 3 arguments')
 
 
 if __name__ == '__main__':
