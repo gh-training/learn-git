@@ -9,7 +9,7 @@ def add(a, b):
     """
     return a + b
 
-def sub(a, b, c=0):
+def sub(a, b, cee = 0):
     """
     Subtract some numbers
 
@@ -17,4 +17,4 @@ def sub(a, b, c=0):
     sub(8, 3, 1) # 4
     ```
     """
-    return a - b - c
+    return a - b - cee
