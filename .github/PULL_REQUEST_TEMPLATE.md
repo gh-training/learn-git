@@ -1,3 +1,8 @@
-## What is your name?
+## Required Steps
+- [ ] Check with the product owner
+- [ ] Write tests
+- [ ] Update docs
+- [ ] Get code review
 
-## What is your quest?
+
+## Testing Done
