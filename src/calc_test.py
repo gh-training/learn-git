@@ -12,8 +12,8 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(sub(4, 3), 1, 'subtracting three from four')
 
     def test_sub_3arg(self):
-        # Make sure 4 - 3 = 1
-        self.assertEqual(sub(4, 3, -7), -6, 'subtracting three from four and -7')
+        # Make sure 4 - 3 - 7 = -6
+        self.assertEqual(sub(4, 3, 7), -6, 'subtracting three from four and -7')
 
 if __name__ == '__main__':
     unittest.main()
