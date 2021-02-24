@@ -8,7 +8,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(add(3, 4), 7, 'adding three and four')
 
     def test_sub_2arg(self):
-        # Make sure 4 - 3 = 1
+        # Make sure 4 - 3 = 1. Test
         self.assertEqual(sub(4, 3), 1, 'subtracting three from four')
 
 
