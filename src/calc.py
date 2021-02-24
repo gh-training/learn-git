@@ -18,3 +18,13 @@ def sub(a, b):
     ```
     """
     return a - b
+
+def sub(a, b, c):
+    """
+    Subtract some numbers
+
+    ```py
+    sub(8, 3) # 5
+    ```
+    """
+    return a - b - c
