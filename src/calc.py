@@ -9,12 +9,13 @@ def add(a, b):
     """
     return a + b
 
-def sub(a, b):
+def sub(a, b, third_operand = 0):
     """
     Subtract some numbers
 
     ```py
-    sub(8, 3) # 5 
+    sub(8, 3) # 5
+    sub(8, 3, 2) # 3 
     ```
     """
-    return a - b
+    return a - b - third_operand
