@@ -13,7 +13,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_sub_3arg(self):
         # Make sure 4 - 3 - 7 = -6
-        self.assertEqual(sub(4, 3, -7), -6, 'subtracting three from four from negative seven')
+        self.assertEqual(sub(4, 3, 7), -6, 'subtracting three from four from seven')
 
 
 if __name__ == '__main__':
