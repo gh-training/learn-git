@@ -1,12 +1,13 @@
-def add(a, b):
+def add(a, b, third_operand = 0):
     """
     Add some numbers together
 
     ```py
     add(2, 3) # 5
+    add(2, 3, 4) # 9
     ```
     """
-    return a + b
+    return a + b + third_operand
 
 def sub(a, b):
     """
