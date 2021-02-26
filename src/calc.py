@@ -1,4 +1,4 @@
-def add(a, b, c = 0):
+def add(a, b, third_operand = 0):
     """
     Add some numbers together
 
@@ -7,7 +7,7 @@ def add(a, b, c = 0):
     add(2, 3, 4) # 9
     ```
     """
-    return a + b + c
+    return a + b + third_operand
 
 def sub(a, b):
     """
