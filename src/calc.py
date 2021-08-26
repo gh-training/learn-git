@@ -15,6 +15,7 @@ def sub(a, b, c = 0):
 
     ```py
     sub(8, 3) # 5
+    sub(8, 3, 2) # 3
     ```
     """
     return a - b - c
