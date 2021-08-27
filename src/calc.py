@@ -18,4 +18,4 @@ def sub(a, b, third_operand = 0):
     sub(8, 3, 10) # -5
     ```
     """
-    return a - b - c
+    return a - b - third_operand
