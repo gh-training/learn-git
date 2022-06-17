@@ -9,7 +9,7 @@ def add(a, b, third_operand = 0):
     """
     return a + b + third_operand
 
-def sub(a, b):
+def sub(a, b, c = 0):
     """
     Subtract some numbers
 
