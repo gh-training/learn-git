@@ -8,7 +8,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(add(3, 4), 7, 'adding three and four')
 
     def test_add_3arg(self):
-        self.assertEqual(add(3, 5, 2), 10, 'adding three, five and two')
+        self.assertEqual(add(5, 3, 2), 10, 'adding three, five and two')
 
     def test_add_zeroes(self):
         self.assertEqual(add(0, 0, 0), 0 , 'adding zeroes together is zero')
