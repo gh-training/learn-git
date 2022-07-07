@@ -5,6 +5,7 @@ def add(a, b, third_operand = 0):
     ```py
     add(2, 3) # 5
     add(2, 3, 4) # 9
+    hello
     ```
     """
     return a + b + third_operand
